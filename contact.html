@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+    <link rel="shortcut icon" href="Images/Abhishek.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <center>
+                <span><a href="index.html">Home</a></span>
+                <span><a href="queries.html">Frequently Asked Questions</a></span>
+            </center>
+        </nav>
+        <hr size="3" noshade="">
+    </header>
+    <main>
+        <div>
+            <form action="mailto:abhisheklayek57@gmial.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <h1>CONTACT ME</h1>
+                    <label for="nameid">Your Name:</label>
+                    <input type="text" name="Name" id="nameid" placeholder="Enter Your Name"><br><br>
+                    <span>Gender:</span>
+                    <input type="radio" name="Gender" id="genderid1">
+                    <label for="genderid1">Male</label>
+                    <input type="radio" name="Gender" id="genderid2">
+                    <label for="genderid2">Female</label><br><br>
+                    <label for="contactid">Contact Number:</label>
+                    <input type="tel" name="Contact" id="contactid" placeholder="Enter Your Number" maxlength="10"><br><br>
+                    <label for="emailid">Email:</label>
+                    <input type="email" name="Email" id="emailid" placeholder="Enter Your Email"><br><br>
+                    <label for="addressid">Address:</label><br>
+                    <textarea name="Address" id="addressid" cols="30" rows="10"></textarea><br><br>
+                    <label for="dobid">Date Of birth:</label>
+                    <input type="date" name="DOB" id="dobid"><br><br>
+                    <span>Expertise:</span>
+                    <input type="checkbox" name="Expertise" id="expid1">
+                    <label for="expid1">C/C++</label>
+                    <input type="checkbox" name="Expertise" id="expid2">
+                    <label for="expid2">JAVA</label>
+                    <input type="checkbox" name="Expertise" id="expid3">
+                    <label for="expid3">Python</label><br><br>
+                    <p>How Good In Programming?</p>
+                    <input type="radio" name="Programming" id="proid1">
+                    <label for="proid1">Basic</label>
+                    <input type="radio" name="Programming" id="proid2">
+                    <label for="proid2">Intermediate</label>
+                    <input type="radio" name="Programming" id="proid3">
+                    <label for="proid3">Advance</label><br><br>
+                    <label for="degreeid">Degree:</label>
+                    <input type="text" name="Degree" id="degreeid" placeholder="Enter Your Degree"><br><br>
+                    <label for="yearid">Select Year:</label>
+                    <select name="Year" id="yearid">
+                        <option value="">Choose Your Year</option>
+                        <option value="first">1st</option>
+                        <option value="second">2nd</option>
+                        <option value="third">3rd</option>
+                        <option value="fourth">4th</option>
+                        <option value="complete">Completed</option>
+                    </select><br><br>
+                    <label for="internshipid">Number Of Internship:</label>
+                    <input type="number" name="Internship" id="internshipid" min="0" max=""><br><br>
+                    <label for="cvid">Upload Your CV:</label>
+                    <input type="file" name="CV" id="cvid"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        <br>
+    </main>
+    <footer><center><p>&#169; 2023 Abhishek Layek. All Rights Reserved.</p></center></footer>
+</body>
+</html>
